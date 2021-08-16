@@ -1,0 +1,20 @@
+#one way is using temporary variable
+a=10
+b=20
+temp = a
+a = b
+b = temp
+
+#second way 
+a=5
+b=4
+a = a+b
+b = a-b
+a = a-b
+
+#third way, it is only possible in python and it works like stack
+a,b = b,a
+
+
+
+
